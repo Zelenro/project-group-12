@@ -1,11 +1,6 @@
 @font-face {
   font-family: 'Epilogue-Regular', sans-serif;
-  src: url(./Epilogue-Regular.eot);
-  src: url(./Epilogue-Regular.eot?#iefix) format('embedded-opentype'),
-    url(./Epilogue-Regular.otf) format('otf'),
-    url(./Epilogue-Regular.svg#Epilogue-Regular) format('svg'),
-    url(./Epilogue-Regular.ttf) format('truetype'),
-    url(./Epilogue-Regular.woff) format('woff'),
+  src: url(./Epilogue-Regular.woff) format('woff'),
     url(./Epilogue-Regular.woff2) format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -13,25 +8,15 @@
 
 @font-face {
   font-family: 'Epilogue-SemiBold', sans-serif;
-  src: url(../Epilogue-SemiBold.eot);
-  src: url(../Epilogue-SemiBold.eot?#iefix) format('embedded-opentype'),
-    url(../Epilogue-SemiBold.otf) format('otf'),
-    url(../Epilogue-SemiBold.svg#Epilogue-SemiBold) format('svg'),
-    url(../Epilogue-SemiBold.ttf) format('truetype'),
-    url(../Epilogue-SemiBold.woff) format('woff'),
+  src: url(../Epilogue-SemiBold.woff) format('woff'),
     url(../Epilogue-SemiBold.woff2) format('woff2');
-  font-weight: 600;
+  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Epilogue-Light', sans-serif;
-  src: url(../Epilogue-Light.eot);
-  src: url(../Epilogue-Light.eot?#iefix) format('embedded-opentype'),
-    url(../Epilogue-Light.otf) format('otf'),
-    url(../Epilogue-Light.svg#Epilogue-Light) format('svg'),
-    url(../Epilogue-Light.woff) format('woff'),
-    url(../Epilogue-Light.ttf) format('truetype'),
+  src: url(../Epilogue-Light.woff) format('woff'),
     url(../Epilogue-Light.woff2) format('woff2');
   font-weight: 300;
   font-style: normal;
@@ -39,12 +24,7 @@
 
 @font-face {
   font-family: 'NeueMontreal-Regular', sans-serif;
-  src: url(../NeueMontreal-Regular.eot);
-  src: url(../NeueMontreal-Regular.eot?#iefix) format('embedded-opentype'),
-    url(../NeueMontreal-Regular.otf) format('otf'),
-    url(../NeueMontreal-Regular.svg#NeueMontreal-Regular) format('svg'),
-    url(../NeueMontreal-Regular.ttf) format('truetype'),
-    url(../NeueMontreal-Regular.woff) format('woff'),
+  src: url(../NeueMontreal-Regular.woff) format('woff'),
     url(../NeueMontreal-Regular.woff2) format('woff2');
   font-weight: normal;
   font-style: normal;

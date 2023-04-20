@@ -1,1 +1,18 @@
+.test-1 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
 
+.test-2 {
+  font-family: 'Epilogue', sans-serif;
+
+  font-size: 25px;
+  /* font-weight: 700; */
+}
+
+.test-3 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
