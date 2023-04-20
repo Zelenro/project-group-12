@@ -6,7 +6,7 @@
 }
 
 .logo-name {
-    display: block;
+    /* /* display: block; */
     text-decoration-line: none;
     list-style: none;
     font-style: normal;
@@ -27,4 +27,5 @@
     letter-spacing: -0.03em;
 
     color: #FFFFFF;
+
 }
