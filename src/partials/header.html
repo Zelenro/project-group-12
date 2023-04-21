@@ -1,41 +1,37 @@
 <header>
-  <div class="header-container">
-    <nav class="nav">
-      <div class="logo">
-        <a class="link" href="./index.html"
-          ><span class="logo-icon">SVG</span
-          ><span class="logo-name">thewatchspot!!</span></a
+  <div class="container header__container">
+    <nav class="header__nav">
+      <div class="header__logo">
+        <a class="header__link reset-px" href="./index.html"
+          ><span class="header__logo-icon">S</span
+          ><span class="header__logo-name">thewatchspot</span></a
         >
       </div>
+
+      <ul class="header__navigation">
+        <li class="header__item">ABOUT US</li>
+        <li class="header__item">CATALOG</li>
+        <li class="header__item">SALE</li>
+      </ul>
     </nav>
+
+    <address>
+      <div class="header__address">
+        <a class="header__contact" href="tel:+380684439426"
+          >+380 (68) 443-94-26</a
+        >
+      </div>
+    </address>
 
     <button
       type="button"
-      class="button mobile-menu-open menu-toggle js-open-menu"
+      class="header__button menu-toggle js-open-menu"
       aria-expanded="false"
       aria-controls="mobile-menu"
     >
-      <svg class="icon-menu-hamburger" width="32px" height="22px">
+      <svg class="header__hamburger" width="20px" height="14px">
         <use href="./images/icons.svg#icon-menu-hamburger"></use>
       </svg>
     </button>
-
-    <!-- ====================================== MENU ========================= -->
-
-    <!-- <div
-      class="container-for-menu menu-wrap-container menu-container js-menu-container is-open"
-      id="mobile-menu"
-    >
-      <button
-        type="button"
-        class="menu-close-btn menu-toggle js-close-menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg class="close-menu-btn-icon" width="8px" height="8px">
-          <use href="./images/icons.svg#icon-close-menu"></use>
-        </svg>
-      </button>
-    </div> -->
   </div>
 </header>
