@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Epilogue-Regular', sans-serif;
+  font-family: 'Epilogue-Regular';
   src: url(./Epilogue-Regular.woff) format('woff'),
     url(./Epilogue-Regular.woff2) format('woff2');
   font-weight: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Epilogue-SemiBold', sans-serif;
+  font-family: 'Epilogue-SemiBold';
   src: url(../Epilogue-SemiBold.woff) format('woff'),
     url(../Epilogue-SemiBold.woff2) format('woff2');
   font-weight: bold;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Epilogue-Light', sans-serif;
+  font-family: 'Epilogue-Light';
   src: url(../Epilogue-Light.woff) format('woff'),
     url(../Epilogue-Light.woff2) format('woff2');
   font-weight: 300;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: 'NeueMontreal-Regular', sans-serif;
+  font-family: 'NeueMontreal-Regular';
   src: url(../NeueMontreal-Regular.woff) format('woff'),
     url(../NeueMontreal-Regular.woff2) format('woff2');
   font-weight: normal;
