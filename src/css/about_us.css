@@ -8,8 +8,6 @@
 
 .about-us-title {
   font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 600;
   font-size: 32px;
   line-height: 1.25;
 
@@ -29,9 +27,7 @@
 }
 
 .desc-item .desc {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 300;
+  font-family: var(--second-font);
   font-size: 14px;
   line-height: 1.29;
 
