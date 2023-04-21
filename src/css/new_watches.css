@@ -1,0 +1,33 @@
+.container {
+  padding: 0px 20px 80px 20px;
+}
+
+.new-text {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.06em;
+
+  color: rgba(20, 20, 20, 0.4);
+  margin-bottom: 8px;
+}
+.new-title {
+  max-width: 335px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+
+  letter-spacing: -0.02em;
+  color: #141414;
+  margin-bottom: 40px;
+}
+.new-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
