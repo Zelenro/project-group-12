@@ -55,10 +55,6 @@ button {
     background-color: #fff;
 }
 
-.header-navigation {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .header__logo-name {
     align-items: center;
