@@ -4,20 +4,7 @@
   | default @import url()
   |============================
 */
-:root {
-  --primary-font: 'Epilogue', sans-serif;
-  --lighting-color: #141414;
-  --second-color: #ffffff;
-  --color-text-desc: #14141480;
-  --footer-color-lower: #c6cdd1;
-  --hover-color-desc: #ffffff80;
-  --mobile-menu-background-color: #1e2827;
-  /*У кнопок такий же колір*/
-  --anim-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*Взяв з дз*/
-  --svg-border: 1px solid rgba(255, 255, 255, 0.1);
-  --svg-border-hover: 1px solid #ffffff;
-}
+
 
 
 
@@ -34,3 +21,18 @@
 @import url('./buy_now.css');
 @import url('./burger.css');
 @import url('./slayder.css');
+
+:root {
+  --primary-font: 'Epilogue', sans-serif;
+  --lighting-color: #141414;
+  --second-color: #ffffff;
+  --color-text-desc: #14141480;
+  --footer-color-lower: #c6cdd1;
+  --hover-color-desc: #ffffff80;
+  --mobile-menu-background-color: #1e2827;
+  /*У кнопок такий же колір*/
+  --anim-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*Взяв з дз*/
+  --svg-border: 1px solid rgba(255, 255, 255, 0.1);
+  --svg-border-hover: 1px solid #ffffff;
+}
