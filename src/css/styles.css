@@ -19,7 +19,8 @@
 @import url('./slayder.css');
 
 :root {
-  --primary-font: 'Epilogue-Regular', sans-serif;
+  --primary-font: 'Epilogue-Regular';
+  --second-font: 'Epilogue-Light';
   --lighting-color: #141414;
   --second-color: #ffffff;
   --color-text-desc: #14141480;
