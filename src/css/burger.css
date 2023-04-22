@@ -37,6 +37,10 @@
 }
 .mob-bacdrop-svg {
   stroke: var(--second-color);
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-miterlimit: 4;
+  stroke-width: 1.333px;
 }
 
 .header-link {
