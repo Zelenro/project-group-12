@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/project-group-12/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Watch Spot</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/project-group-12/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Watch Spot</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
 
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    
+    <script type="module" crossorigin src="/project-group-12/assets/index-c334cd31.js"></script>
+    <link rel="stylesheet" href="/project-group-12/assets/index-8fcd8a2c.css">
+  </head>
 
-  
-  <script type="module" crossorigin src="/project-group-12/assets/index-5bcd1419.js"></script>
-  <link rel="stylesheet" href="/project-group-12/assets/index-30288e82.css">
-</head>
+  <body>
+    <div class="mob-menu is-hidden" data-menu-mob>
+  <section class="mob-container">
+    <div class="header-mob-icon">
+      <a href="#" class="header-link link"
+        ><svg class="header__logo-svg" width="14" height="14">
+          <use href="../img/icons.svg#icon-logo"></use>
+        </svg>
+        <span class="mob-header-text link">thewatchspot</span></a
+      >
 
-<body>
-  <header>
+      <button data-menu-mob-close class="mob-close-button">
+        <svg class="mob-bacdrop-svg" width="24" height="24">
+          <use href="../img/icons.svg#icon-menu-close"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mob-burger-id">
+      <ul class="mob-menu-list list">
+        <li data-menu-mob-close-link class="mob-menu-item studio">
+          <a href="#about" class="mob-menu-link link after-line curent"
+            >About us</a
+          >
+        </li>
+        <li class="mob-menu-item portfolio">
+          <a href="#" class="mob-menu-link link after-line">Catalog</a>
+        </li>
+        <li class="mob-menu-item contacts">
+          <a href="#" class="mob-menu-link link after-line">Sale</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+    <header>
   <div class="container header__container">
     <nav class="header__nav">
       <div class="header__logo">
@@ -51,7 +86,8 @@
 
     <button
       type="button"
-      class="header__button menu-toggle js-open-menu"
+      class="header__button menu-toggle"
+      data-menu-mob-open
       aria-expanded="false"
       aria-controls="mobile-menu"
     >
@@ -62,13 +98,13 @@
   </div>
 </header>
 
-  
-<div>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt.
-    </p>
+    <div>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt.
+  </p>
 </div>
-  <section id="about" class="container about-us-container">
+
+    <section id="about" class="container about-us-container">
   <div class="about-us-content">
     <h2 class="about-us-title">About us</h2>
     <ul class="desc-list list">
@@ -96,15 +132,13 @@
   </div>
 </section>
 
-  
-  
-  
-  
-  
-  
-  
+    
+    
+    
+    
+    
+    
 
-  
-</body>
-
+    
+  </body>
 </html>
