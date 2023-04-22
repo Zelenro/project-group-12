@@ -1,0 +1,21 @@
+.hero {
+    background-color: #141414;
+    padding-top: 69px;
+    padding-bottom: 40px;
+}
+
+.hero-tittle {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.hero-subtittle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
