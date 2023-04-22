@@ -5,6 +5,7 @@
   |============================
 */
 
+@import url('./burger.css');
 @import url('./font-face.css');
 @import url('./reset.css');
 @import url('./header.css');
@@ -15,7 +16,6 @@
 @import url('./sales.css');
 @import url('./footer.css');
 @import url('./buy_now.css');
-@import url('./burger.css');
 @import url('./slayder.css');
 
 :root {
