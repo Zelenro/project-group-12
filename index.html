@@ -12,18 +12,63 @@
 
   
   <script type="module" crossorigin src="/project-group-12/assets/index-5bcd1419.js"></script>
-  <link rel="stylesheet" href="/project-group-12/assets/index-4218a682.css">
+  <link rel="stylesheet" href="/project-group-12/assets/index-7a453958.css">
 </head>
 
 <body>
-  
+  <header>
+  <div class="container header__container">
+    <nav class="header__nav">
+      <div class="header__logo">
+        <a class="header__link" href="./index.html"
+          ><span class="header__logo-icon">
+            <svg class="header__logo-svg" width="19px" height="19px">
+              <use href="../img/icons.svg#icon-logo"></use></svg></span
+          ><span class="header__logo-name">thewatchspot</span></a
+        >
+      </div>
+
+      <ul class="header__navigation">
+        <li class="header__item">
+          <a class="header__id" href="#about">ABOUT US</a>
+        </li>
+        <li class="header__item">
+          <a class="header__id" href="#catalog">CATALOG</a>
+        </li>
+        <li class="header__item">
+          <a class="header__id" href="#sale">SALE</a>
+        </li>
+      </ul>
+    </nav>
+
+    <address>
+      <div class="header__address">
+        <a class="header__contact" href="tel:+380684439426"
+          >+380 (68) 443-94-26</a
+        >
+      </div>
+    </address>
+
+    <button
+      type="button"
+      class="header__button menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="header__burger-svg" width="24px" height="24px">
+        <use href="../img/icons.svg#icon-burger-menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
   
 <div>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt.
     </p>
 </div>
-  <section class="container about-us-container">
+  <section id="about" class="container about-us-container">
   <div class="about-us-content">
     <h2 class="about-us-title">About us</h2>
     <ul class="desc-list list">
