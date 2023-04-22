@@ -1,0 +1,55 @@
+<button class="hero-button button" type="button" data-modal-open>Order Service</button>
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-close-icons">
+        <use href="./img/icons.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <form class="modal-form">
+      <div class="modal-product-description">
+        <img srcset="../img/Mobile/catalog/2x/catalog-watch-mob-1-2x.jpg 2x"
+          src="../img/Mobile/catalog/catalog-watch-mob-1.jpg" alt="You have chosen this model to order" width="275"
+          height="274">
+        <p class="modal-product-name">Tube Watch S42 Date Steel With Black</p>
+        <p class="modal-product-price">€395</p>
+      </div>
+      <div class="modal-form-main">
+        <input class="modal-input" type="text" name="modal-fullname" id="modal-fullname"
+          placeholder="Enter your full name" title="Jonh Smit" required pattern="^(\w\w+)\s(\w+)$">
+        <label for="modal-fullname" class="modal-label modal-label-fullname">Full name</label>
+
+        <input class="modal-input" type="email" name="modal-email" id="modal-email" placeholder="Enter your email"
+          title="example@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <label for="modal-email" class="modal-label modal-label-email">Email</label>
+
+        <input class="modal-input" type="tel" name="modal-card" id="modal-card" inputmode="numeric" maxlength="19"
+          placeholder="Enter card" title="XXXX XXXX XXXX XXXX" required pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}">
+        <label for="modal-card" class="modal-label modal-label-card">Card number</label>
+      </div>
+
+      <button type="submit"></button>
+    </form>
+
+
+  </div>
+</div>
+
+<script>
+  (() => {
+    const refs = {
+      openModalBtn: document.querySelector('[data-modal-open]'),
+      closeModalBtn: document.querySelector('[data-modal-close]'),
+      modal: document.querySelector('[data-modal]'),
+    };
+
+    refs.openModalBtn.addEventListener('click', toggleModal);
+    refs.closeModalBtn.addEventListener('click', toggleModal);
+
+    function toggleModal() {
+      refs.modal.classList.toggle('is-hidden');
+      document.body.classList.toggle('no-scrool');
+    }
+  })();
+</script>
