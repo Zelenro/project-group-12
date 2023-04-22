@@ -1,0 +1,44 @@
+/* --------------- MAIN Styles --------------- */
+.container {
+
+}
+
+.hero-swiper-logo {
+
+}
+
+.hero-media-logo {
+
+}
+
+.hero {
+    background-color: #141414;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero-tittle {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.hero-subtittle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+/* --------------- Mobile Styles --------------- */
+
+@media screen and (min-width: 375px) {
+    .container {
+      width: 375px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
