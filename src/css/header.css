@@ -16,6 +16,7 @@
 .header__nav {
     display: flex;
     align-items: center;
+    gap: 80px;
 }
 
 .header__link {
@@ -36,7 +37,7 @@
 
 .header__logo-name {
     font-family: var(--primary-font);
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1;
     letter-spacing: -0.03em;
     color: var(--second-color);
@@ -52,8 +53,8 @@
     margin-left: auto;
     background-color: transparent;
     border: none;
-    width: 20px;
-    height: 14px;
+    width: 24px;
+    height: 24px;
 }
 
 
@@ -84,7 +85,8 @@
 
     .logo-name {
         align-items: center;
-        font-size: 15px;
+        font-size: 12px;
+        line-height: 1;
         letter-spacing: -0.03em;
         color: var(--second-color);
     }
@@ -113,6 +115,10 @@
         display: none;
     }
 
+    .logo-name {
+        font-size: 15px;
+    }
+
     .header__navigation {
         display: flex;
         flex-wrap: wrap;
@@ -138,9 +144,7 @@
         border-radius: 8px;
     }
 
-    .header__logo {
-        margin-right: 80px;
-    }
+
 
     .header__container {
         justify-content: space-between;
