@@ -1,0 +1,222 @@
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.list {
+  list-style: none;
+}
+.container-sale {
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.titel-sale {
+  margin-bottom: 40px;
+  margin-right: auto;
+  width: 67px;
+  height: 40px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--lighting-color);
+}
+
+.sale-img-block {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.list-sale-img {
+  display: flex;
+  flex-direction: column;
+}
+.item-sale-img {
+  margin-bottom: 10px;
+}
+.item-sale-img:last-child {
+  margin-bottom: 0;
+}
+
+.sale-bgr-small {
+  width: 100%;
+}
+.sale-img-small {
+  width: 100%;
+  max-height: 80px;
+  background-color: #141414;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.sale-img {
+  max-width: 80px;
+}
+
+.sale-big-picture {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #141414;
+}
+.sale-img-big {
+  width: 100%;
+  height: 100%;
+}
+.sale-block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.subtitle-sale {
+  width: 100%;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--lighting-color);
+  margin-bottom: 8px;
+}
+.subtitle-sale-small {
+  width: 100%;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+  margin-bottom: 16px;
+  margin-right: auto;
+}
+.list-sale {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.list-sale-price {
+  width: 40px;
+  height: 24px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: var(--lighting-color);
+}
+.sale-price {
+  width: 32px;
+  height: 11px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration-line: line-through;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.list-sale-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.sale-item-desc::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: var(--lighting-color);
+}
+.titel-sale-desc {
+  position: relative;
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 9px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--lighting-color);
+}
+.titel-sale-desc::after {
+  content: '';
+  width: 16px;
+  height: 1px;
+  justify-content: space-between;
+  background-color: var(--lighting-color);
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.sale-desc-text {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(20, 20, 20, 0.5);
+}
+/*==================================*/
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*=================================TABLET========================*/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+  .sale-img-small {
+    min-width: 122px;
+    min-height: 146px;
+    background-color: #141414;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .sale-img-big {
+    width: 406px;
+    height: 614px;
+  }
+  .sale-img {
+    min-width: 146px;
+    height: 146px;
+  }
+  .sale-big-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width: 406px;
+    min-height: 614px;
+    background-color: #141414;
+  }
+}
+/*=============================DESKTOP============================*/
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
