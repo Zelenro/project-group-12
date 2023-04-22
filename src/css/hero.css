@@ -1,6 +1,11 @@
+/* --------------- MAIN Styles --------------- */
+.container {
+
+}
+
 .hero {
     background-color: #141414;
-    padding-top: 69px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
