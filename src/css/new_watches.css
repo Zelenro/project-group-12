@@ -58,10 +58,9 @@
     gap: 24px;
     flex-wrap: nowrap;
   }
-  .new-title{
+  .new-title {
     margin-bottom: 80px;
     font-size: 40px;
     line-height: 1.1;
   }
-  
 }

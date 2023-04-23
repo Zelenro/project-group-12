@@ -3,7 +3,6 @@
 }
 .container-sale {
   display: block;
-  padding-top: 80px;
   padding-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px;
@@ -186,7 +185,6 @@
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-    padding-top: 128px;
     padding-bottom: 128px;
   }
   .titel-sale {
@@ -266,7 +264,6 @@
   }
   .container-sale {
     min-width: 1176px;
-    padding-top: 80px;
     padding-bottom: 160px;
     margin-left: auto;
     margin-right: auto;
