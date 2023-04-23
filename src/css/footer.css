@@ -83,6 +83,12 @@
   gap: 14px;
 }
 
+.social-list-item {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
 .footer-icon {
   width: 24px;
   height: 24px;
@@ -176,7 +182,12 @@
 
   .footer-cont {
     padding: 0;
+    height: 476px;
   }
+
+.footer {
+  height: 476px;
+}
 
   .footer-menu {
     margin-left: 142px;
@@ -222,8 +233,12 @@
     padding-top: 80px;
   }
 
+  .footer-info {
+    padding-bottom: 0;
+  }
+
   .footer-copyright {
-    padding-bottom: 20px;
+    margin-top: 0;
   }
 }
 
@@ -242,10 +257,12 @@
 
   .footer {
     justify-content: center;
+    height: 534px;
   }
 
   .footer-cont {
     width: 1176px;
+    height: 534px;
   }
 
   .privacy-policy {
@@ -262,5 +279,13 @@
 
   .footer-copyright {
     padding-bottom: 32px;
+  }
+
+  .footer-info {
+    height: 20px;
+  }
+
+  .footer-copyright {
+    padding-bottom: 0;
   }
 }
