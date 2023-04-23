@@ -13,7 +13,16 @@
 .hero-swiper-logo {
     margin-top: 60px;
     margin-bottom: 92px;
-    width: 266px;
+}
+
+.hero-tittle {
+    max-width: 335px;
+    height: 120px;
+}
+
+.hero-subtittle {
+    margin-left: 87px;
+    margin-bottom: 42px;
 }
 
 .hero-media-logo {
@@ -80,17 +89,19 @@
     }
 
     .hero-tittle {
-        width: 653px;
+        max-width: 653px;
+        height: 186px;
     }
 
     .hero-subtittle {
         height: 108px;
         width: 248px;
+        margin-left: auto;
+        margin-bottom: 0;
     }
         
     .hero-swiper-logo {
-        margin-bottom: 100px;
-        width: 436px;
+        
     }
 
     .hero-media-logo {
@@ -98,30 +109,26 @@
     }
 
     .img-swipper {
-        min-width: 436px;
-        height: 255px;
-        display: block;
+        max-width: 436px;
+        height: 0;
+        display: flex;
+        flex-direction: column;
     }
     
     .img-swipper > source {margin: 0 auto;}
 
-    /* .img-media-logo {
+    .img-media-logo {
         min-width: 266px;
         height: 200px;
         display: block;
     }
     
-    .img-media-logo > source {margin: 0 auto;} */
+    .img-media-logo > source {margin: 0 auto;}
 
 }
 
 @media screen and (min-width: 768px), (max-width: 1279px) {
 
-    .hero-subtittle-tab {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
   }
 
   /* --------------- Desktop Styles --------------- */
@@ -132,19 +139,35 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .hero {
+        padding-top: 60px;
+    }
     .hero-tittle {
-        width: 750px;
+        max-width: 750px;
+        height: auto;
     }
     .hero-subtittle-tab {
         display: contents;
+        width: 282px;
     }
 
-    /* .img-media-logo {
+    .hero-media-logo {
+        display: flex;
+        justify-content: flex-end;
+        max-width: 100%;
+    }
+
+    .hero-swiper-logo {
+        margin-top: auto;
+        margin-bottom: auto;
+    }    
+    .img-media-logo {
         min-width: 266px;
         height: 200px;
         display: block;
     }
     
-    .img-media-logo > source {margin: 0 auto;} */
+    .img-media-logo > source {margin: 0 auto;}
 
 }
