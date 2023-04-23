@@ -63,11 +63,7 @@
   align-items: center;
   justify-content: center;
 }
-/*
-.sale-img-big {
-  width: 100%;
-  height: 100%;
-}*/
+
 .sale-block-text {
   display: flex;
   flex-direction: column;
@@ -183,10 +179,6 @@
   }
 }
 @media screen and (max-width: 767px) {
-  /*.sale-bgr-small {
-    max-width: 80px;
-    min-height: 80px;
-  }*/
 }
 /*=================================TABLET========================*/
 @media screen and (min-width: 768px) {
