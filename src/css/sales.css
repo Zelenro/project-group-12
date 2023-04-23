@@ -28,7 +28,6 @@
   gap: 20px;
   margin-bottom: 40px;
 }
-
 .list-sale-img {
   display: flex;
   flex-direction: column;
@@ -141,8 +140,7 @@
   position: relative;
   display: block;
   padding-top: 8px;
-  padding-bottom: 8px;
-  margin-bottom: 9px;
+  margin-bottom: 17px;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
@@ -152,6 +150,7 @@
   text-transform: uppercase;
   color: var(--lighting-color);
 }
+
 .titel-sale-desc::after {
   content: '';
   width: 16px;
@@ -170,6 +169,8 @@
   line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
+  display: flex;
+  flex-direction: column;
 }
 /*==================================*/
 
@@ -194,6 +195,10 @@
     padding-right: 32px;
     padding-top: 128px;
     padding-bottom: 128px;
+  }
+  .titel-sale {
+    font-size: 40px;
+    line-height: 1.25;
   }
   .sale-img-block {
     width: 100%;
@@ -247,49 +252,73 @@
   }
   .subtitle-sale {
     width: 572px;
-    height: 80px;
+    font-size: 38px;
+    line-height: 1.05;
   }
   .sale-block-text {
     margin-left: 66px;
     margin-right: 66px;
   }
+  .titel-sale-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+  }
 }
 /*=============================DESKTOP============================*/
 @media screen and (min-width: 1280px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .container-sale {
-    width: 1280px;
-    padding-left: 132px;
-    padding-right: 132px;
+    min-width: 1176px;
     padding-top: 80px;
     padding-bottom: 160px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .titel-sale {
     margin-right: auto;
     margin-bottom: 80px;
   }
+
+  .list-sale-img {
+    margin-left: 0;
+  }
+  .sale-img-small {
+    min-width: 102px;
+    height: 100%;
+  }
+  .sale-big-picture {
+    width: 406px;
+    margin: 0;
+  }
   .sale-wrap {
+    min-width: 981px;
     display: flex;
-    gap: 40px;
     justify-content: center;
+    justify-content: flex-end;
     margin-left: 97px;
     margin-right: 98px;
   }
   .sale-img-block {
+    min-width: 572px;
+    display: flex;
+    justify-content: flex-end;
     padding: 0;
     margin-bottom: 0;
   }
-  .list-sale-img {
-    margin-left: 0;
-  }
+
   .sale-block-text {
     width: 369px;
+    margin-left: 40px;
     margin-right: 0;
-    margin-left: 0;
   }
   .subtitle-sale {
     width: 369px;
   }
-  .sale-big-picture {
-    margin: 0;
+  .sale-desk-article {
+    text-align: start;
   }
 }
