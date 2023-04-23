@@ -1,14 +1,7 @@
 /* --------------- MAIN Styles --------------- */
 .container {
-
-}
-
-.hero-swiper-logo {
-
-}
-
-.hero-media-logo {
-
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .hero {
@@ -17,7 +10,27 @@
     padding-bottom: 40px;
 }
 
-.hero-tittle {
+.hero-swiper-logo {
+    margin-top: 60px;
+    margin-bottom: 92px;
+    width: 266px;
+}
+
+.hero-media-logo {
+    margin-top: 40px;
+    max-width: 335px;
+}
+
+.img-swipper {
+    min-width: 266px;
+    height: 200px;
+    display: block;
+}
+
+.img-swipper > source {margin: 0 auto;}
+
+.hero-tittle-text {
+    font-family: 'Epilogue-SemiBold';
     font-weight: 600;
     font-size: 38px;
     line-height: 1.05;
@@ -25,13 +38,22 @@
     color: #FFFFFF;
 }
 
-.hero-subtittle {
+.hero-subtittle-text {
+    font-family: 'Epilogue-Light';
     font-weight: 300;
     font-size: 14px;
     line-height: 1.28;
     letter-spacing: -0.02em;
     color: #FFFFFF;
 }
+
+/* .img-media-logo {
+    min-width: 266px;
+    height: 200px;
+    display: block;
+}
+
+.img-media-logo > source {margin: 0 auto;} */
 
 /* --------------- Mobile Styles --------------- */
 
@@ -42,3 +64,87 @@
       margin-right: auto;
     }
   }
+
+  /* --------------- Tablet Styles --------------- */
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 704px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-tittle-text {
+        font-size: 60px;
+        line-height: 1.03;
+    }
+
+    .hero-tittle {
+        width: 653px;
+    }
+
+    .hero-subtittle {
+        height: 108px;
+        width: 248px;
+    }
+        
+    .hero-swiper-logo {
+        margin-bottom: 100px;
+        width: 436px;
+    }
+
+    .hero-media-logo {
+        max-width: max-content;
+    }
+
+    .img-swipper {
+        min-width: 436px;
+        height: 255px;
+        display: block;
+    }
+    
+    .img-swipper > source {margin: 0 auto;}
+
+    /* .img-media-logo {
+        min-width: 266px;
+        height: 200px;
+        display: block;
+    }
+    
+    .img-media-logo > source {margin: 0 auto;} */
+
+}
+
+@media screen and (min-width: 768px), (max-width: 1279px) {
+
+    .hero-subtittle-tab {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  }
+
+  /* --------------- Desktop Styles --------------- */
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1176px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-tittle {
+        width: 750px;
+    }
+    .hero-subtittle-tab {
+        display: contents;
+    }
+
+    /* .img-media-logo {
+        min-width: 266px;
+        height: 200px;
+        display: block;
+    }
+    
+    .img-media-logo > source {margin: 0 auto;} */
+
+}
