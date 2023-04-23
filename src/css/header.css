@@ -1,0 +1,167 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--lighting-color);
+  padding-top: 29px;
+  padding-right: 20px;
+  padding-bottom: 29px;
+  padding-left: 20px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.header__link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header__logo-svg {
+  fill: var(--second-color);
+  width: 14px;
+  height: 14px;
+}
+
+.header__logo-icon {
+  display: flex;
+}
+
+.header__logo-name {
+  font-family: var(--primary-font);
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--second-color);
+}
+
+.header__item {
+  font-family: var(--primary-font);
+  font-size: 9px;
+  color: var(--second-color);
+}
+
+.header__button {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+}
+
+.header__contact {
+  font-family: var(--primary-font);
+}
+
+.header__burger-svg {
+  fill: var(--second-color);
+}
+
+.header__navigation {
+  display: none;
+}
+
+.header__address {
+  display: none;
+}
+
+/*============================== SCREEN 375px =============================== */
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .logo-name {
+    align-items: center;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--second-color);
+  }
+}
+
+/*============================== SCREEN 768px =============================== */
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header__logo-svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .logo-name {
+    font-size: 15px;
+  }
+
+  .header__navigation {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header__address {
+    display: block;
+  }
+
+  .header__contact {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 36px;
+    background-color: var(--mobile-menu-background-color);
+
+    font-style: normal;
+    font-size: 9px;
+    line-height: 1.33;
+    text-align: center;
+    color: var(--second-color);
+    border-radius: 8px;
+  }
+
+  .header__container {
+    justify-content: space-between;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+/*============================== SCREEN 1280px =============================== */
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1176px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .header__container {
+    justify-content: space-between;
+  }
+}
