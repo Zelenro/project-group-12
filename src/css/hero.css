@@ -1,5 +1,163 @@
 /* --------------- MAIN Styles --------------- */
+
 .container {
+    max-width: 375px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #141414;
+}
+
+.hero-slider-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-tittle {
+    max-width: 335px;
+    height: 120px;
+    margin-bottom: 60px;
+}
+
+.hero-tittle-text {
+    font-family: 'Epilogue-SemiBold';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.hero__slider-block {
+  
+}
+
+.hero__slider {
+    
+}
+
+.hero__slider-navigation {
+    margin-top: 20px;
+}
+
+.icon-chevron-right {
+    fill:tomato;
+    width: 40px;
+    height: 40px;
+}
+
+.hero-subtittle {
+    display: block;
+    width: 248px;
+    margin-left: 87px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.hero-subtittle-text {
+    font-family: 'Epilogue-Light';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+} 
+
+.hero__foto-block {
+    width: 335px;
+}
+
+/* --------------- Mobile Styles --------------- */
+
+
+/* --------------- Tablet Styles --------------- */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        padding-top: 80px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 64px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-tittle-text {
+        font-size: 60px;
+        line-height: 1.03;
+    }
+
+    .hero-tittle {
+        max-width: 653px;
+        margin-bottom: 60px;
+        height: auto;
+    }
+
+    .hero-subtittle {
+        display: block;
+        width: 248px;
+        margin-left: 20px;
+        margin-bottom: 0;
+        margin-top: 70px;
+    }
+
+    .hero__slider-block {
+        margin-bottom: 40px;
+    }
+
+    .hero__foto-block {
+        width: 704px;
+        height: 410px;
+    }
+}
+
+/* --------------- Desktop Styles --------------- */
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1176px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .hero-tittle {
+        max-width: 750px;
+    }
+
+    .hero__slider-block {
+        position: absolute;
+        width: 400px;
+        top: 200px;
+    }
+
+    .hero__foto-block {
+        width: 676px;
+        height: 394px;
+        margin-left: auto;
+    }
+}
+
+
+
+/* --------------- MAIN Styles --------------- */
+/* .container {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -38,23 +196,8 @@
 
 .img-swipper > source {margin: 0 auto;}
 
-.hero-tittle-text {
-    font-family: 'Epilogue-SemiBold';
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 1.05;
-    letter-spacing: -0.04em;
-    color: #FFFFFF;
-}
 
-.hero-subtittle-text {
-    font-family: 'Epilogue-Light';
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-}
+*/
 
 /* .img-media-logo {
     min-width: 266px;
@@ -66,17 +209,17 @@
 
 /* --------------- Mobile Styles --------------- */
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
     .container {
       width: 375px;
       margin-left: auto;
       margin-right: auto;
     }
-  }
+  } */
 
   /* --------------- Tablet Styles --------------- */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .container {
         width: 704px;
         margin-left: auto;
@@ -129,11 +272,11 @@
 
 @media screen and (min-width: 768px), (max-width: 1279px) {
 
-  }
+  } */
 
   /* --------------- Desktop Styles --------------- */
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
     .container {
         width: 1176px;
         margin-left: auto;
@@ -170,4 +313,4 @@
     
     .img-media-logo > source {margin: 0 auto;}
 
-}
+} */
