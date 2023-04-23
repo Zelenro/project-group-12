@@ -83,7 +83,7 @@
 
 .modal-product-name {
   margin-top: 14px;
-  font-family: 'Epilogue-Regular';
+  font-family: var(--primary-font);
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
@@ -92,7 +92,7 @@
 
 .modal-product-price {
   margin-top: 4px;
-  font-family: 'Epilogue-Regular';
+  font-family: var(--primary-font);
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: -0.02em;
@@ -109,7 +109,7 @@
   display: block;
   margin-bottom: 12px;
 
-  font-family: 'Epilogue-Regular';
+  font-family: var(--primary-font);
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: -0.02em;
@@ -129,7 +129,7 @@
 
 .modal-input::placeholder,
 .modal-textarea::placeholder {
-  font-family: 'Epilogue-Regular';
+  font-family: var(--primary-font);
   font-size: 14px;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.5);
@@ -162,7 +162,7 @@
   background-color: #1e2827;
   border-radius: 8px;
   outline: 0;
-  font-family: 'Epilogue-Regular';
+  font-family: var(--primary-font);
   font-size: 12px;
   line-height: calc(14 / 12);
   text-align: center;
@@ -173,7 +173,7 @@
 .modal-description-privacypolicy {
   display: block;
   margin-top: 12px;
-  font-family: 'Epilogue-Regular';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
