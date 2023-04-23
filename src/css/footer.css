@@ -240,6 +240,10 @@ justify-content: center;
   .footer-copyright {
     margin-top: 0;
   }
+
+  .footer-social-list {
+    gap: 16px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
