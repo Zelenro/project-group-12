@@ -24,9 +24,14 @@
           title="example@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
         <label for="modal-email" class="modal-label modal-label-email">Email</label>
 
-        <input class="modal-input" type="tel" name="modal-card" id="modal-card" inputmode="numeric" maxlength="19"
-          placeholder="Enter card" title="XXXX XXXX XXXX XXXX" required pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}">
+        <input class="modal-input modal-input-card" type="tel" name="modal-card" id="modal-card" inputmode="numeric"
+          maxlength="19" placeholder="Enter card" title="XXXX XXXX XXXX XXXX" required
+          pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}">
         <label for="modal-card" class="modal-label modal-label-card">Card number</label>
+
+        <label for="modal-comment" class="modal-label-comment">Comments</label>
+        <textarea class="modal-textarea" name="modal-comment" id="modal-comment"
+          placeholder="Enter your text"></textarea>
       </div>
 
       <button type="submit"></button>
