@@ -1,3 +1,5 @@
+<button class="hero-button button" type="button" data-modal-open>Order Service</button>
+
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button type="button" class="modal-close" data-modal-close>
@@ -32,11 +34,30 @@
           placeholder="Enter your text"></textarea>
 
         <button type="submit" class="modal-button-submit">submit</button>
-        <p class="modal-description-privacypolicy">By clicking on “Submit” button, you agree to our Privacy Policy,
+        <a href="" class="modal-description-privacypolicy">By clicking on “Submit” button, you agree to our Privacy
+          Policy,
           and
           allow Promodo to use this information for marketing
-          purposes.</p>
+          purposes.</a>
       </div>
     </form>
   </div>
+
+  <script>
+    (() => {
+      const refs = {
+        openModalBtn: document.querySelector('[data-modal-open]'),
+        closeModalBtn: document.querySelector('[data-modal-close]'),
+        modal: document.querySelector('[data-modal]'),
+      };
+
+      refs.openModalBtn.addEventListener('click', toggleModal);
+      refs.closeModalBtn.addEventListener('click', toggleModal);
+
+      function toggleModal() {
+        refs.modal.classList.toggle('is-hidden');
+        document.body.classList.toggle('no-scrool');
+      }
+    })();
+  </script>
 </div>

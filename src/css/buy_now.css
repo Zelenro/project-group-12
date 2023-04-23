@@ -171,6 +171,7 @@
 }
 
 .modal-description-privacypolicy {
+  display: block;
   margin-top: 12px;
   font-family: 'Epilogue-Regular';
   font-style: normal;
@@ -188,6 +189,7 @@
     padding: 40px;
     max-width: 744px;
     max-height: 670px;
+    overflow: hidden;
   }
 
   .modal-close {
@@ -205,6 +207,7 @@
 
   .modal-form {
     flex-direction: row;
+    align-items: flex-start;
     gap: 20px;
   }
 
