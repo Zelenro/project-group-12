@@ -3,6 +3,10 @@
   margin-right: auto;
 }
 
+header {
+  background-color: var(--lighting-color);
+}
+
 .header__container {
   display: flex;
   flex-wrap: wrap;
