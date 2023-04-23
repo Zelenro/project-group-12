@@ -168,6 +168,10 @@ justify-content: center;
     margin-bottom: 80px;
   }
 
+
+  .footer-info {
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -275,6 +279,7 @@ justify-content: center;
 }
 .footer-menu{
   margin-left: 0;
+  width: 115px;
 }
 
   .footer-social {
