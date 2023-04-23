@@ -12,8 +12,8 @@
     />
 
     
-    <script type="module" crossorigin src="/project-group-12/assets/index-c334cd31.js"></script>
-    <link rel="stylesheet" href="/project-group-12/assets/index-ae5c71b1.css">
+    <script type="module" crossorigin src="/project-group-12/assets/index-7099af0d.js"></script>
+    <link rel="stylesheet" href="/project-group-12/assets/index-48f62ea2.css">
   </head>
 
   <body>
@@ -22,14 +22,14 @@
     <div class="header-mob-icon">
       <a href="#" class="header-link link"
         ><svg class="header__logo-svg" width="14" height="14">
-          <use href="/project-group-12/assets/icons-d27574f5.svg#icon-logo"></use>
+          <use href="/project-group-12/assets/icons-3f8b687b.svg#icon-logo"></use>
         </svg>
         <span class="mob-header-text link">thewatchspot</span></a
       >
 
       <button data-menu-mob-close class="mob-close-button">
         <svg class="mob-bacdrop-svg" width="24" height="24">
-          <use href="/project-group-12/assets/icons-d27574f5.svg#icon-menu-close"></use>
+          <use href="/project-group-12/assets/icons-3f8b687b.svg#icon-menu-close"></use>
         </svg>
       </button>
     </div>
@@ -58,7 +58,7 @@
         <a class="header__link" href="./index.html"
           ><span class="header__logo-icon">
             <svg class="header__logo-svg" width="19px" height="19px">
-              <use href="/project-group-12/assets/icons-d27574f5.svg#icon-logo"></use></svg></span
+              <use href="/project-group-12/assets/icons-3f8b687b.svg#icon-logo"></use></svg></span
           ><span class="header__logo-name">thewatchspot</span></a
         >
       </div>
@@ -92,7 +92,7 @@
       aria-controls="mobile-menu"
     >
       <svg class="header__burger-svg" width="24px" height="24px">
-        <use class="burger" href="/project-group-12/assets/icons-d27574f5.svg#icon-burger-menu"></use>
+        <use class="burger" href="/project-group-12/assets/icons-3f8b687b.svg#icon-burger-menu"></use>
       </svg>
     </button>
   </div>
@@ -143,7 +143,7 @@
           <div class="div-logo">
             <a href="">
               <svg class="footer-logo">
-                <use href="/project-group-12/assets/icons-d27574f5.svg#icon-logo"></use>
+                <use href="/project-group-12/assets/icons-3f8b687b.svg#icon-logo"></use>
               </svg>
             </a>
             <ul class="address-list">
@@ -186,7 +186,7 @@
                 target="_blank"
               >
                 <svg class="footer-icon">
-                  <use href="/project-group-12/assets/icons-d27574f5.svg#icon-facebook"></use>
+                  <use href="/project-group-12/assets/icons-3f8b687b.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
@@ -197,7 +197,7 @@
                 target="_blank"
               >
                 <svg class="footer-inst">
-                  <use href="/project-group-12/assets/icons-d27574f5.svg#icon-instagram"></use>
+                  <use href="/project-group-12/assets/icons-3f8b687b.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
@@ -208,7 +208,7 @@
                 target="_blank"
               >
                 <svg class="footer-icon">
-                  <use href="/project-group-12/assets/icons-d27574f5.svg#icon-youtube"></use>
+                  <use href="/project-group-12/assets/icons-3f8b687b.svg#icon-youtube"></use>
                 </svg>
               </a>
             </li>
@@ -228,7 +228,49 @@
   </div>
 </footer>
 
-    
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-close-icons">
+        <use href="/project-group-12/assets/icons-3f8b687b.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <form class="modal-form">
+      <div class="modal-product-description">
+        <img srcset="/project-group-12/assets/catalog-watch-mob-1-2x-ce0c5dc2.jpg 2x"
+          src="/project-group-12/assets/catalog-watch-mob-1-d463a76e.jpg" alt="You have chosen this model to order" width="275"
+          height="274">
+        <p class="modal-product-name">Tube Watch S42 Date Steel With Black</p>
+        <p class="modal-product-price">€395</p>
+      </div>
+      <div class="modal-form-main">
+
+        <label for="modal-fullname" class="modal-label">Full name</label>
+        <input class="modal-input" type="text" name="modal-fullname" id="modal-fullname"
+          placeholder="Enter your full name" title="Jonh Smit" required pattern="^(\w\w+)\s(\w+)$">
+
+        <label for="modal-email" class="modal-label">Email</label>
+        <input class="modal-input" type="email" name="modal-email" id="modal-email" placeholder="Enter your email"
+          title="example@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+        <label for="modal-card" class="modal-label">Card number</label>
+        <input class="modal-input" type="text" name="modal-card" id="modal-card" inputmode="numeric" maxlength="19"
+          placeholder="Enter card" title="XXXX XXXX XXXX XXXX" required pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}">
+
+        <label for="modal-comment" class="modal-label">Comments</label>
+        <textarea class="modal-textarea" name="modal-comment" id="modal-comment"
+          placeholder="Enter your text"></textarea>
+
+        <button type="submit" class="modal-button-submit">submit</button>
+        <a href="" class="modal-description-privacypolicy">By clicking on “Submit” button, you agree to our Privacy
+          Policy,
+          and
+          allow Promodo to use this information for marketing
+          purposes.</a>
+      </div>
+    </form>
+  </div>
+</div>
     
 
     
