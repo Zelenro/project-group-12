@@ -183,10 +183,13 @@ cataloge-links:hover .catalog-overlay {
 }
 
 @media screen and (min-width: 1280px) {
+  .catalog-section {
+    background-color: rgb(251, 251, 251);
+  }
+
   .catalog-container {
-    width: 1280px;
-    padding: 80px 52px;
-    padding-bottom: 160px;
+    width: 1176px;
+    padding: 80px 12px 160px;
   }
 
   .catalog-title {
