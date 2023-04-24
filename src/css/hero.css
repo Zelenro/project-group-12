@@ -17,7 +17,6 @@
 .hero {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .hero-slider-photo {
@@ -27,7 +26,6 @@
 }
 .hero-tittle {
     max-width: 335px;
-    height: 120px;
     margin-bottom: 60px;
 }
 
@@ -134,7 +132,7 @@
 
     .hero-container {
         max-width: 768px;
-        padding-top: 80px;
+        padding-top: 60px;
         padding-left: 32px;
         padding-right: 32px;
         padding-bottom: 64px;
