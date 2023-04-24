@@ -45,11 +45,7 @@
 }
 .sale-img-small {
   display: block;
-  max-width: 80px;
-  max-height: 80px;
   background-color: #141414;
-  padding-left: 8px;
-  padding-right: 8px;
 }
 .sale-img {
   display: block;
@@ -57,10 +53,13 @@
 }
 
 .sale-big-picture {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.sale-img-big {
+  height: 100%;
 }
 
 .sale-block-text {
