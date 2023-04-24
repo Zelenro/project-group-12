@@ -4,6 +4,8 @@
 
 .footer-cont {
   padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: var(--mobile-menu-background-color);
 }
 
@@ -252,6 +254,7 @@
 
   .footer-cont {
     padding-top: 80px;
+    
   }
 
   .footer-info {
