@@ -172,6 +172,10 @@ cataloge-links:hover .catalog-overlay {
     width: 336px;
   }
 
+  .catalog-img-wrapper {
+    width: 336px;
+  }
+
   .catalog-overlay-desc {
     margin-bottom: 16px;
   }
