@@ -1,6 +1,9 @@
 .catalog-container {
   width: 100%;
-  padding: 40px 20px;
+  padding: 0 20px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .catalog-title {
