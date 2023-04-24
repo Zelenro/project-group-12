@@ -16,7 +16,7 @@
   margin-bottom: 40px;
 }
 
-.catalogwatch-list {
+.catalog-watch-list {
   display: flex;
   flex-direction: column;
   gap: 40px 0;
@@ -160,7 +160,7 @@ cataloge-links:hover .catalog-overlay {
     line-height: 1.1;
   }
 
-  .catalogwatch-list {
+  .catalog-watch-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -168,7 +168,7 @@ cataloge-links:hover .catalog-overlay {
     gap: 40px 32px;
   }
 
-  .catalogwatch-list-item {
+  .catalog-watch-list-item {
     width: 336px;
   }
 
@@ -196,7 +196,7 @@ cataloge-links:hover .catalog-overlay {
     margin-bottom: 64px;
   }
 
-  .catalogwatch-list {
+  .catalog-watch-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
