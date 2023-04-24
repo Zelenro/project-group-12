@@ -1,0 +1,43 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-close-icons">
+        <use href="./img/icons.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <form class="modal-form">
+      <div class="modal-product-description">
+        <img srcset="./img/Mobile/catalog/2x/catalog-watch-mob-1-2x.jpg 2x"
+          src="./img/Mobile/catalog/catalog-watch-mob-1.jpg" alt="You have chosen this model to order" width="275"
+          height="274">
+        <p class="modal-product-name">Tube Watch S42 Date Steel With Black</p>
+        <p class="modal-product-price">€395</p>
+      </div>
+      <div class="modal-form-main">
+
+        <label for="modal-fullname" class="modal-label">Full name</label>
+        <input class="modal-input" type="text" name="modal-fullname" id="modal-fullname"
+          placeholder="Enter your full name" title="Jonh Smit" required pattern="^(\w\w+)\s(\w+)$">
+
+        <label for="modal-email" class="modal-label">Email</label>
+        <input class="modal-input" type="email" name="modal-email" id="modal-email" placeholder="Enter your email"
+          title="example@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+        <label for="modal-card" class="modal-label">Card number</label>
+        <input class="modal-input" type="text" name="modal-card" id="modal-card" inputmode="numeric" maxlength="19"
+          placeholder="Enter card" title="XXXX XXXX XXXX XXXX" required pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}">
+
+        <label for="modal-comment" class="modal-label">Comments</label>
+        <textarea class="modal-textarea" name="modal-comment" id="modal-comment"
+          placeholder="Enter your text"></textarea>
+
+        <button type="submit" class="modal-button-submit">submit</button>
+        <a href="" class="modal-description-privacypolicy">By clicking on “Submit” button, you agree to our Privacy
+          Policy,
+          and
+          allow Promodo to use this information for marketing
+          purposes.</a>
+      </div>
+    </form>
+  </div>
+</div>

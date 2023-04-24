@@ -1,0 +1,66 @@
+.new-watches-container {
+  padding: 0px 20px 80px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--second-color);
+}
+
+.new-text {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.06em;
+
+  color: rgba(20, 20, 20, 0.4);
+  margin-bottom: 8px;
+}
+.new-title {
+  max-width: 335px;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+
+  letter-spacing: -0.02em;
+  color: var(--lighting-color);
+  margin-bottom: 40px;
+}
+.new-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media screen and (min-width: 375px) {
+  .new-watches-container {
+    width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .new-watches-container {
+    width: 768px;
+    padding: 0 32px 128px 32px;
+  }
+  .new-title {
+    max-width: 448px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .new-watches-container {
+    width: 1176px;
+    padding: 0 12px 160px 12px;
+  }
+
+  .new-link {
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+  .new-title {
+    margin-bottom: 80px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

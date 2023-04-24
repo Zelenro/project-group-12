@@ -24,7 +24,7 @@
 }
 
 .catalog-watch-list-item {
-  width: 335px;
+  max-width: 335px;
   list-style: none;
 }
 
@@ -190,6 +190,7 @@ cataloge-links:hover .catalog-overlay {
   .catalog-container {
     width: 1280px;
     padding: 80px 52px;
+    padding-bottom: 160px;
   }
 
   .catalog-title {
