@@ -1,0 +1,22 @@
+.slider {
+    width: 200px;
+    height: 200px;
+}
+
+.mySlider {}
+
+.slider__wrapper {}
+
+.slider__slide {}
+
+.slayder__buttons {
+    fill: red;
+}
+
+.slayder__buttons-next {
+    fill: yellow;
+}
+
+.slayder__buttons-prev {
+    fill: yellow;
+}

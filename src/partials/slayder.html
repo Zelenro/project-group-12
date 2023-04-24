@@ -1,0 +1,43 @@
+<section>
+  <div id="slider-id" class="slider mySlider">
+    <div class="slider__wrapper">
+      <div class="slider__slide">
+        <img src="../img/img-slader/mobile/mob-slader-1.webp" alt="#" />
+      </div>
+      <div class="slider__slide">
+        <img src="../img/img-slader/mobile/mob-slader-2.webp" alt="#" />
+      </div>
+      <div class="slider__slide">
+        <img src="../img/img-slader/mobile/mob-slader-3.webp" alt="#" />
+      </div>
+      <div class="slider__slide">
+        <img src="../img/img-slader/mobile/mob-slader-4.webp" alt="#" />
+      </div>
+      <div class="slider__slide">
+        <img src="../img/img-slader/mobile/mob-slader-5.webp" alt="#" />
+      </div>
+    </div>
+  </div>
+  <div class="slayder__buttons">
+    <div class="slayder__buttons-next">
+      <svg class="close-menu-btn-icon" width="8px" height="8px">
+        <use href="../img/icons.svg#icon-left"></use>
+      </svg>
+    </div>
+    <div class="slayder__buttons-prev">
+      <svg class="close-menu-btn-icon" width="8px" height="8px">
+        <use href="../img/icons.svg#icon-right"></use>
+      </svg>
+    </div>
+  </div>
+
+  <script>
+    const swiper = new Swiper('.mySlider', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      keyboard: { enabled: true },
+      navigation: { nextEl: '.button-next', prevEl: '.button-prev' },
+    });
+  </script>
+</section>
