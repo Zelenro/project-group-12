@@ -25,6 +25,8 @@
     max-width: 335px;
     height: 120px;
     margin-bottom: 60px;
+    max-height: 280px;
+
   }
   
   .hero-tittle-text {
@@ -71,7 +73,7 @@
   }
   
   .navigation-digits-text-left {
-    font-family: 'Epilogue';
+    font-family: 'Epilogue-Regular';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
@@ -91,7 +93,7 @@
   }
   
   .navigation-digits-text {
-    font-family: 'Epilogue';
+    font-family: 'Epilogue-Regular';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
