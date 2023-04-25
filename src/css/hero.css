@@ -148,6 +148,10 @@
   margin-left: 6px;
 }
 
+.pagination .swiper-pagination-current::after {
+  content: none;
+}
+
 .navigation-digits-text {
   font-family: var(--primary-font);
   font-weight: 400;
