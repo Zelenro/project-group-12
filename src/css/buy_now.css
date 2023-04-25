@@ -76,7 +76,7 @@
   min-height: 375px;
 }
 
-.modal-product-description > img {
+.modal-product-description>img {
   margin: 0 auto;
   padding-top: 26px;
   padding-bottom: 25px;
@@ -245,9 +245,14 @@
 
 /*!!! DESKTOP */
 @media screen and (min-width: 1280px) {
+  .backdrop {
+    border-radius: 8px;
+  }
+
   .modal {
     max-width: 904px;
     max-height: 694px;
+    border-radius: 8px;
   }
 
   .modal-form-main {
