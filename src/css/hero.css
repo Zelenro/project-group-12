@@ -148,10 +148,6 @@
   margin-left: 6px;
 }
 
-.pagination .swiper-pagination-current::after {
-  content: none;
-}
-
 .navigation-digits-text {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -159,6 +155,17 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: var(--second-color);
+}
+
+.swiper-pagination-total {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
 .hero-subtittle {
