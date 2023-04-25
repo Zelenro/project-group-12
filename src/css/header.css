@@ -66,6 +66,8 @@ header {
   font-family: var(--primary-font);
 }
 
+
+
 .header__burger-svg {
   fill: var(--second-color);
 }
@@ -145,8 +147,17 @@ header {
     line-height: 1.33;
     text-align: center;
     color: var(--second-color);
+    border: 1px solid #1e2827;
     border-radius: 8px;
   }
+
+  .header__contact:hover,
+  .header__contact:focus {
+    border: 1px solid #FFFFFF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
 
   .header__container {
     justify-content: space-between;
@@ -168,4 +179,5 @@ header {
   .header__container {
     justify-content: space-between;
   }
+
 }

@@ -128,9 +128,10 @@ cataloge-links:hover .catalog-overlay {
 }
 
 .cataloge-button {
-  border: none;
   height: 42px;
   background-color: var(--mobile-menu-background-color);
+  border: 1px solid #1E2827;
+
   border-radius: 8px;
   display: flex;
   font-family: var(--primary-font);
@@ -140,6 +141,13 @@ cataloge-links:hover .catalog-overlay {
   color: #ffffff;
   padding: 14px 28px;
   gap: 10px;
+}
+
+.cataloge-button:hover,
+.cataloge-button:focus {
+  border: 1px solid #FFFFFF;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 375px) {
@@ -172,6 +180,10 @@ cataloge-links:hover .catalog-overlay {
     width: 336px;
   }
 
+  .catalog-img-wrapper {
+    width: 336px;
+  }
+
   .catalog-overlay-desc {
     margin-bottom: 16px;
   }
@@ -180,13 +192,16 @@ cataloge-links:hover .catalog-overlay {
     height: 50px;
     padding: 18px 35px;
   }
+
+
+
+
 }
 
 @media screen and (min-width: 1280px) {
   .catalog-container {
-    width: 1280px;
-    padding: 80px 52px;
-    padding-bottom: 160px;
+    width: 1176px;
+    padding: 80px 12px;
   }
 
   .catalog-title {
@@ -218,6 +233,7 @@ cataloge-links:hover .catalog-overlay {
 
   .catalog-img-wrapper {
     height: 325px;
+    width: 270px;
   }
 
   .catalog-overlay {

@@ -226,6 +226,19 @@
   .modal-button-submit {
     max-width: 507px;
   }
+
+  .modal-close:is(:hover, :focus) {
+    stroke: #e60909;
+  }
+
+  .modal-input:focus,
+  .modal-textarea:focus {
+    border-color: #111980;
+  }
+
+  .modal-button-submit:is(:hover, :focus) {
+    background-color: #0c1041;
+  }
 }
 
 /*!!! DESKTOP */

@@ -164,8 +164,6 @@
   line-height: 1.29;
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
-  display: flex;
-  flex-direction: column;
 }
 /*==================================*/
 
@@ -263,7 +261,10 @@
   }
   .container-sale {
     min-width: 1176px;
+    padding-top: 80px;
     padding-bottom: 160px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
   }
