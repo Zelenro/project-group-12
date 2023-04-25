@@ -42,6 +42,10 @@
   margin-bottom: 40px;
 }
 
+.media-cont {
+  display: flex;
+}
+
 .footer-address {
   font-family: var(--primary-font);
   display: flex;
@@ -59,6 +63,7 @@
 }
 
 .footer-menu {
+  margin-left: auto;
   margin-bottom: 10px;
 }
 
@@ -170,9 +175,6 @@
     background-color: var(--mobile-menu-background-color);
   }
 
-  .media-cont {
-    display: flex;
-  }
   .footer-social-list {
     margin-bottom: 80px;
   }
