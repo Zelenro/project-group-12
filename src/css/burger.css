@@ -27,6 +27,7 @@
   display: flex;
   margin-bottom: 200px;
 }
+
 .mob-header-text {
   font-family: var(--primary-font);
   font-style: normal;
@@ -36,6 +37,7 @@
   letter-spacing: -0.03em;
   color: var(--second-color);
 }
+
 .mob-bacdrop-svg {
   stroke: var(--second-color);
   stroke-linejoin: round;
@@ -55,12 +57,13 @@
   flex-direction: column;
   position: fixed;
   top: 0px;
-  z-index: 1;
+  z-index: 99;
   width: 100%;
   height: 100%;
   background-color: var(--mobile-menu-background-color);
   padding: 29px 0;
 }
+
 .mob-close-button {
   display: flex;
   justify-content: center;
@@ -73,10 +76,12 @@
   padding: 0;
   border: none;
 }
+
 .mob-burger-id {
   display: flex;
   flex-direction: column;
 }
+
 .mob-menu-list {
   display: flex;
   flex-direction: column;
@@ -94,6 +99,7 @@
 .mob-menu-item:not(:last-child) {
   margin-bottom: 14px;
 }
+
 .mob-menu-link {
   color: inherit;
 }
