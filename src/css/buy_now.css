@@ -126,6 +126,7 @@
   outline: transparent;
   background-color: transparent;
   padding-left: 16px;
+  transition: border-color var(--anim-dur-func);
 }
 
 .modal-input::placeholder,
@@ -169,6 +170,7 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--second-color);
+  transition: border-color var(--anim-dur-func);
 }
 
 .modal-description-privacypolicy {
