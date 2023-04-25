@@ -6,38 +6,159 @@
       </h1>
     </div>
     <div class="hero__slider-block">
-      <picture class="hero-slider-photo">
-        <source
-          srcset="
-            ./img/tablet/watch-hero/hero-slider-tab.jpg       1x,
-            ./img/tablet/watch-hero/2x/hero-slider-tab-2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./img/mobile/watch-hero/hero-slider-mob.jpg       1x,
-            ./img/mobile/watch-hero/2x/hero-slider-mob-2x.jpg 2x
-          "
-          media="(max-width: 767px)"
-          type="image/jpeg"
-        />
-        <img
-          class="hero__slider"
-          src="./img/mobile/watch-hero/hero-slider-mob.jpg"
-          alt="watch"
-        />
-      </picture>
-
-      <div class="hero__slider-navigation">
-        <button class="chevron-button chevron-left-button" type="button">
+      <div class="swiper">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <picture>
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/tablet/tab-slader-1.webp       1x,
+                  ./img/img-slader/tablet/2x/tab-slader-1-2x.webp 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/mobile/mob-slader-1.webp       1x,
+                  ./img/img-slader/mobile/2x/mob-slader-1-2x.webp 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                class=""
+                src="./img/img-slader/mobile/mob-slader-1.webp"
+                alt="watch"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/tablet/tab-slader-2.webp       1x,
+                  ./img/img-slader/tablet/2x/tab-slader-2-2x.webp 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/mobile/mob-slader-2.webp       1x,
+                  ./img/img-slader/mobile/2x/mob-slader-2-2x.webp 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                class=""
+                src="./img/img-slader/mobile/mob-slader-2.webp"
+                alt="watch"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/tablet/tab-slader-3.webp       1x,
+                  ./img/img-slader/tablet/2x/tab-slader-3-2x.webp 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/mobile/mob-slader-3.webp       1x,
+                  ./img/img-slader/mobile/2x/mob-slader-3-2x.webp 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                class=""
+                src="./img/img-slader/mobile/mob-slader-3.webp"
+                alt="watch"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/tablet/tab-slader-4.webp       1x,
+                  ./img/img-slader/tablet/2x/tab-slader-4-2x.webp 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/mobile/mob-slader-4.webp       1x,
+                  ./img/img-slader/mobile/2x/mob-slader-4-2x.webp 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                class=""
+                src="./img/img-slader/mobile/mob-slader-4.webp"
+                alt="watch"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide">
+            <picture>
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/tablet/tab-slader-5.webp       1x,
+                  ./img/img-slader/tablet/2x/tab-slader-5-2x.webp 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                class=""
+                srcset="
+                  ./img/img-slader/mobile/mob-slader-5.webp       1x,
+                  ./img/img-slader/mobile/2x/mob-slader-5-2x.webp 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                class=""
+                src="./img/img-slader/mobile/mob-slader-5.webp"
+                alt="watch"
+              />
+            </picture>
+          </li>
+        </ul>
+      </div>
+      <div class="hero__slider-navigation swiper-button-contaier">
+        <button
+          class="button-prev chevron-button chevron-left-button"
+          type="button"
+        >
           <svg class="icon-chevron-left icon-chevron">
             <use href="./img/icons.svg#icon-chevron-left"></use>
           </svg>
         </button>
 
-        <button class="chevron-button chevron-right-button" type="button">
+        <button
+          class="button-next chevron-button chevron-right-button"
+          type="button"
+        >
           <svg class="icon-chevron-right icon-chevron">
             <use href="./img/icons.svg#icon-chevron-right"></use>
           </svg>

@@ -16,6 +16,18 @@
   flex-wrap: wrap;
 }
 
+.swiper-wrapper {
+  width: 266px;
+  height: 200px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mobile-menu-background-color);
+}
+
 .hero-slider-photo {
   display: flex;
   justify-content: center;
@@ -87,10 +99,15 @@
 }
 
 .chevron-button {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: border-color var(--anim-dur-func);
 }
 
 .icon-chevron {
+  fill: none;
   transition: stroke var(--anim-dur-func);
 }
 
@@ -236,6 +253,11 @@
   .icon-chevron-right {
     width: 24px;
     height: 24px;
+  }
+
+  .swiper-wrapper {
+    width: 436px;
+    height: 255px;
   }
 }
 
